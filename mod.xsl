@@ -8,7 +8,7 @@
 
                 <xsl:choose>
                     <xsl:when test="login/uid">
-                        <img class="user-icon" src="//oxm1.cc/uploads/{login/uid}/user/avatar.png?x-oss-process=image/resize,w_30"/>
+                        <img class="user-icon" src="//oxm1.cc/uploads/{login/uid}/user/avatar.png?x-oss-process=image/resize,m_fill,h_60,w_60"/>
                     </xsl:when>
                     <xsl:otherwise><a class="J_loginLink" href="/m/login/index">login</a></xsl:otherwise>
                 </xsl:choose>
