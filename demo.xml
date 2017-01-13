@@ -7,7 +7,7 @@
     <login>
         <id>4032739</id>
         <name>wurui</name>
-
+        <uid>git/wurui</uid>
         <type>git</type>
     </login>
     <p>
