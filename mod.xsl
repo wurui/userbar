@@ -18,7 +18,7 @@
             <div class="left">
                 <xsl:choose>
                     <xsl:when test="login/uid">
-                        <img class="user-icon" src="//oxm1.cc/uploads/{login/uid}/user/avatar.png?x-oss-process=image/resize,m_fill,h_60,w_60"/>
+                        <img class="user-icon" src="//a.oxm1.cc/uploads/{login/uid}/user/avatar.png?x-oss-process=image/resize,m_fill,h_60,w_60"/>
                     </xsl:when>
                     <xsl:otherwise></xsl:otherwise>
                 </xsl:choose>
