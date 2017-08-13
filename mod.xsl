@@ -13,12 +13,11 @@
                     </xsl:when>
                     <xsl:otherwise><a class="J_loginLink" href="/m/login/index">login</a></xsl:otherwise>
                 </xsl:choose>
-
             </div>
             <div class="left">
                 <xsl:choose>
                     <xsl:when test="login/uid">
-                        <img class="user-icon" src="//a.oxm1.cc/uploads/{login/uid}/user/avatar.png?x-oss-process=image/resize,m_fill,h_60,w_60"/>
+                        <img class="user-icon" src="//i.oxm1.cc/uploads/{login/uid}/user/avatar.png?x-oss-process=style/60"/>
                     </xsl:when>
                     <xsl:otherwise></xsl:otherwise>
                 </xsl:choose>
